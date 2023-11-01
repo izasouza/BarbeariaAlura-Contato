@@ -43,40 +43,55 @@ em strong{
     padding: 20px
 }
 
-.imagembeneficios{
-    width: 50%
-}
-
-.ul{
+.servicos{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
-nav{
-    position: absolute;
-    top: 0;
-    right: 0;
+.imagembeneficios{
+    width: 50%
 }
 
-nav li{
-    display: inline;
+
+.caixa{
+    position: relative
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute
+}
+
+nav{
+    top: 15px 
+}
+
+nav{
+    right: 50px;
+}
+
+nav li {
+    display: inline
+}
+
+nav li {
     margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-
 }
 
-.paginas{
-    left: 30%;
-    display: inline;
-    padding-right: 50px;
-    text-align: center;
+nav a:hover {
+    text-decoration: underline;
+    color: #C78C19
 }
